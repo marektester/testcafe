@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 72.0.3626 / Windows 10.0.0" tests="6" failures="0" skipped="0" errors="0" time="66.825" timestamp="Wed, 13 Mar 2019 00:24:21 GMT" >
+  <testcase classname="Check Sign In form" name="Error message should be visible after enter wrong credentials" time="10.542">
+  </testcase>
+  <testcase classname="Check Sign In form" name="Sign in button should be disabled when form is not filled" time="5.411">
+  </testcase>
+  <testcase classname="Check Sign In form" name="Login should be possible when using proper credentials" time="7.141">
+  </testcase>
+  <testcase classname="Check Sign Up form" name="Proper message should be visible if wrong data is provided in form" time="29.971">
+  </testcase>
+  <testcase classname="Check Sign Up form" name="Sign up button should be disabled when form is not filled" time="4.164">
+  </testcase>
+  <testcase classname="Check Sign Up form" name="Sing up should be possible when using proper data" time="9.424">
+  </testcase>
+</testsuite>

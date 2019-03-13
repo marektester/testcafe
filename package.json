@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-testcafe": "^0.22.0",
+    "peer": "^0.2.10",
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}

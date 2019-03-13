@@ -1,0 +1,24 @@
+{
+    "browsers": ["chrome"],
+    "src": ["./tests/**/*.js"],
+    "reporter": [
+        {
+        "name": "xunit",
+        "output": "./reports/report.xml"
+        },
+        {
+            "name": "list"
+        }
+    ],
+    "screenshotPath": "./screenshots/",
+    "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    "takeScreenshotsOnFails": true,
+    "debugOnFail": true,
+    "stopOnFirstFail": true,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000,
+    "speed": 0.8
+}
